@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styleclock</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="logo">
+                <span class="material-symbols-outlined">shopping_bag_speed</span>
+                <h3>StyleClock</h3>
+            </div>
+                <nav>
+                    <ul>
+                        <li><a class="active" href="home.html">Home</a></li>
+                        <li><a href="product.html">Product</a></li>
+                        <li><a href="about.html">about</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="navbar-icons">
+                    <span class="material-symbols-outlined cart">
+                        shopping_cart
+                        </span>
+                    <span class="material-symbols-outlined wish-list">
+                        favorite
+                    </span>
+                </div>
+                <input type="search" placeholder="search">
+        </div>
+        <div class="categories">
+            <div class="categories-top">
+                <div class="categories-span">
+                    <h3>Ctegories</h3>
+                </div>
+            </div>
+            <div class="category-section-container">
+                <div class="section-container" data-section="all">
+                    <div class="section-container-image">
+                        <img src="all.jpeg" alt="all">
+                    </div>
+                    <div class="section-text">
+                        <h3>All <span><br>102 items</span></h3>
+                    </div>
+                </div>
+                <div class="section-container" data-section="trousers">
+                    <div class="section-container-image">
+                        <img src="shirt1.jpg" alt="trousers">
+                    </div>
+                    <div class="section-text">
+                        <h3>Shirts<span><br>8 items</span></h3>
+                    </div>
+                </div>
+                <div class="section-container" data-section="shirts">
+                    <div class="section-container-image">
+                        <img src="pant4.jpg" alt="shirts">
+                    </div>
+                    <div class="section-text">
+                        <h3>trousers<span><br>10 items</span></h3>
+                    </div>
+                </div>
+                <div class="section-container" data-section="t-shirts">
+                    <div class="section-container-image">
+                        <img src="t-shirt1.jpg" alt="t-shirts">
+                    </div>
+                    <div class="section-text">
+                        <h3>t-shirts <span> <br>5 items</span></h3>
+                    </div>
+                </div>
+                <div class="section-container" data-section="shoes">
+                    <div class="section-container-image">
+                        <img src="shoes1.jpg" alt="shoes">
+                    </div>
+                    <div class="section-text">
+                        <h3>shoes<span><br>8 items</span></h3>
+                    </div>
+                </div>
+                <div class="section-container" data-section="watchs">
+                    <div class="section-container-image">
+                        <img src="watch1.jpg" alt="watchs">
+                    </div>
+                    <div class="section-text">
+                        <h3>watchs<span><br>9 items</span></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-section">
+            <div class="categories-top">
+                <div class="categories-span">
+                    <h3>All</h3>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="shirt1.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt3.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt4.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt5.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt6.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt7.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt8.jpg">
+                    <div class="clothes-section-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt9.jpg">
+                    <div class="clothes-section-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt10.jpg">
+                    <div class="clothes-section-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant3.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant4.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant5.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant6.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant7.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant8.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="short1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="short2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="t-shirt1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="t-shirt2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="t-shirt3.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="t-shirt4.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="t-shirt5.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes3.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes4.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes5.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes6.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes7.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes8.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes9.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes10.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch3.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch4.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch5.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch6.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch7.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch8.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch9.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch10.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="shirts">
+            <div class="categories-top">
+                <div class="categories-span">
+                    <h3>Shirts</h3>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="shirt1.jpg">
+                    <i class="fa-thin fa-heart"></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt2.jpg">
+                    <i class="fa-thin fa-heart"></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt3.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt4.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt5.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt6.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt7.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt8.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt9.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shirt10.jpg">
+                    <i class='bx bx-heart wish'></i>
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="trousers">
+            <div class="categories-top">
+                <div class="categories-span">
+                    <h3>trousers</h3>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="pant1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant3.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant4.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant5.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant6.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant7.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="pant8.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="short1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="short2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="t-shirts">
+            <div class="categories-top">
+                <div class="categories-span">
+                    <h3>tshirts</h3>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="t-shirt1.jpg">
+                    <div class="card-text">
+                        <h4>fashion gray t-shirt</h4>
+                        <p>$99.99</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div> 
+                <div class="card">
+                    <img src="t-shirt2.jpg">
+                    <div class="card-text">
+                        <h4>fashion gray t-shirt</h4>
+                        <p>$99.99</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div> 
+                <div class="card">
+                    <img src="t-shirt3.jpg">
+                    <div class="card-text">
+                        <h4>fashion gray t-shirt</h4>
+                        <p>$99.99</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div> 
+                <div class="card">
+                    <img src="t-shirt4.jpg">
+                    <div class="card-text">
+                        <h4>fashion gray t-shirt</h4>
+                        <p>$99.99</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div> 
+                <div class="card">
+                    <img src="t-shirt5.jpg">
+                    <div class="card-text">
+                        <h4>fashion gray t-shirt</h4>
+                        <p>$99.99</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div> 
+            </div>
+        </div>
+        <div class="shoes">
+            <div class="categories-top">
+                <div class="categories-span">
+                    <h3>shoes</h3>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="shoes1.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes2.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes3.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes4.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes5.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes6.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes7.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes8.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes9.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="shoes10.jpg">
+                    <div class="card-text">
+                        <h4>summer cotton shirt</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="watchs">
+            <div class="categories-top">
+                <div class="categories-span">
+                    <h3>watchs</h3>
+                </div>
+            </div>
+            <div class="cards-container">
+                <div class="card">
+                    <img src="watch1.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch2.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch3.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch4.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch5.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch6.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch7.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch8.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch9.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+                <div class="card">
+                    <img src="watch10.jpg">
+                    <div class="card-text">
+                        <h4>stainless steel watch</h4>
+                        <p>120$</p>
+                    </div>
+                    <button class="btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-container">
+                <div class="company-description">
+                    <div class="footer-logo">
+                        <span class="material-symbols-outlined">shopping_bag_speed</span>
+                        <h3>StyleClock</h3>
+                    </div>
+                    <h5>Elevate your wardrobe with our thoughtfully<br>
+                    designes pieces. Experience style and comfort<br>
+                    with every purchase.</h5>
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-facebook fa-2x"></i>
+                        <i class="fa-brands fa-instagram fa-2x"></i>
+                        <i class="fa-brands fa-twitter fa-2x"></i>
+                        <i class="fa-brands fa-linkedin fa-2x"></i>
+                        <i class="fa-brands fa-whatsapp fa-2x"></i>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="styleclock.html">Home</a></li>
+                        <li><a href="products.html">Poducts</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contacts</a></li>
+                        <li><a href="support.html">Support</a></li>
+                    </ul>
+                </div>
+                <div class="services">
+                    <h3>Our services</h3>
+                    <ul>
+                        <li><a href="styleclock.html">Home</a></li>
+                        <li><a href="products.html">Poducts</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="information">
+                    <h3>our Informations</h3>
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms &<br> Conditions</a></li>
+                        <li><a href="#">Return <br>policy</a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                <p>Copyright © 2025 <span>styleclock official website</span> all rights reserved</p>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
+   
+
+
+
+

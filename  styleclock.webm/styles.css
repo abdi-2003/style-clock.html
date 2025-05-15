@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    
+    font-family: "Poppins", sans-serif;
+}
+p{
+    color: #555;
+}
+.header{
+    display: flex;
+    padding: 20px;
+    height: 100px;
+    box-shadow: 15px 20px 20px rgb(224, 224, 221);
+    place-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+nav{
+    margin-left: 200px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a{
+    display: inline;
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: #555;
+    padding:20px;
+    top: 15px;
+    transition: 0.4s;
+}
+nav a:hover, .active, .wish-list:hover, .cart:hover {
+    color: blue;
+}
+.navbar-icons{
+    gap: 10px;
+}
+input{
+    width: 200px;
+    border-radius: 8px;
+    height: 30px;
+    border: 2px solid #555;
+    margin-left: 100px;
+    outline: none;
+}
+.navbar-icons{
+    margin-left: 100px;
+}
+.wish-list, .cart{
+    transition: 0.4s;
+    cursor:pointer;
+    margin-left:20px ;
+}
+.categories{
+    margin-top: 100px;
+    padding: 1rem 8%;
+    
+}
+.categories-top{
+    display: flex;
+    align-items: center;
+}
+.categories-top h3{
+    margin-left: 30px;
+    color: #555;
+}
+.categories-span{
+    background-color: #3051eb;
+    width: 15px;
+    height: 2rem;
+    margin-right: 10px;
+    border-radius: 30px;
+}
+.section-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.157);
+    transition: 0.4s;
+}
+.section-container img{
+    width: 100px;
+    height: 100px;
+}
+.category-section-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 19px;
+    margin-top: 30px;
+
+}
+.section-container:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.section-image img{
+    height: 100px;
+}
+
+.section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    padding-left: 2rem;
+}
+
+.section-text h3{
+    color: #3e3e3edd;
+    font-size: 1rem;
+}
+.section-text span{
+    color: rgb(115, 113, 113);
+    font-size: 0.9rem;
+}
+.all-section {
+    margin-top: 100px;
+    padding: 1rem 8%;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 19px;
+}
+.card{
+    width: 200px;
+    height: 320px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 0 30px rgba(0, 0, 0, 0.157);
+    transition: 0.4s;
+    position: relative;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.card img{
+    width: 100%;
+    height: 220px;
+}
+.wish {
+    position:absolute;
+    right: 2px;
+    top: 2px;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 20px;
+}
+.card-text{
+    margin-left: 10px;
+}
+.card-text h4{
+    color: #555;
+    font-weight: 800;
+}
+.btn{
+    width: 90px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    border: blue;
+    border-radius: 5px;
+    transition: 0.4s;
+    cursor: grabbing;
+    margin: 0 10px;
+}
+.btn:hover{
+    opacity: 0.6;
+}
+.shirts, .trousers, .t-shirts, .shoes, .watchs{
+    margin-top: 30px;
+    padding: 2rem 8%;
+}
+footer {
+    background-color: #6677c3;
+    height: 400px;
+}
+.company-description h5{
+   color: rgb(182, 180, 180);
+   line-height: 20px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.footer-container h3{
+    color: #3f3e3e;
+}
+.footer-logo{
+    display: flex;
+    margin-bottom: 15px;
+}
+.footer-logo h3{
+    margin-left: 2px;
+}
+.footer-container li{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.footer-container a{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: rgb(182, 180, 180);
+    top: 15px;
+    transition: 0.4s;
+    margin-bottom: 20px;
+}
+.footer-container a:hover{
+    color: blue;
+}
+.footer-icons{
+    gap: 10px;
+}
+.fa-brands{
+    margin-left: 15px;
+    margin-top: 50px;
+    color: #c0bcbc;
+}
+.company-description, .footer-links, .services, .information{
+    margin-top: 100px;
+}
+.copyright{
+    margin-top: 50px;
+}
+.copyright p{
+    color: rgb(182, 180, 180);
+}
+.copyright span{
+    color: #555;
+}
